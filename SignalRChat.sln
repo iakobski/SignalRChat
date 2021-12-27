@@ -5,6 +5,11 @@ VisualStudioVersion = 25.0.1700.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{47C67472-9A9C-4409-8D85-A2E5D774E55C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PythonClient", "PythonClient", "{495941A6-91A1-4422-8445-0DC17B923DEB}"
+	ProjectSection(SolutionItems) = preProject
+		PerlClient\client.py = PerlClient\client.py
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
